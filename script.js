@@ -13,28 +13,28 @@ enunciado: "Pergunta1",
   ]
 }
 {
-enunciado: "Pergunta1",
+enunciado: "quantas libertadores o palmeiras tem?",
   alternativas:{
     "Alternativa1",
     "Alternativa2",
   ]
 }
 {
-enunciado: "Pergunta1",
+enunciado: "verde ou branco?",
   alternativas:{
     "Alternativa1",
     "Alternativa2",
   ]
 }
   {
-enunciado: "Pergunta1",
+enunciado: "cortinas são os menores do mundo?!",
   alternativas:{
     "Alternativa1",
     "Alternativa2",
   ]
 }
     {
-enunciado: "Pergunta1",
+enunciado: "Abel Ferreira é o melhor do mundo?!",
   alternativas:{
     "Alternativa1",
     "Alternativa2",
