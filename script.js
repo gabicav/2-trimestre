@@ -41,3 +41,12 @@ enunciado: "Abel Ferreira é o melhor do mundo?!",
   ]
 }
       ];
+
+    let atual=0;
+      let perguntaAtual;
+     funcion mostraPergunta(){
+       perguntaAtual=perguntas[atual];
+       caixaPerguntas.textosContent=perguntaAtual.enunciado;
+     }
+
+    mostraPergunta();
