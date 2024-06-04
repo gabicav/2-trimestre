@@ -7,35 +7,35 @@ const textoResultado=document.querySelector(."texto-resultado");
 const perguntas=[
 {
 enunciado: "Pergunta1",
-  alternativas:{
+  alternativas:[
     "Alternativa1",
     "Alternativa2",
   ]
 }
 {
 enunciado: "quantas libertadores o palmeiras tem?",
-  alternativas:{
+  alternativas:[
     "3",
     "2",
   ]
 }
 {
 enunciado: "verde ou branco?",
-  alternativas:{
+  alternativas:[
     "branco",
     "verde",
   ]
 }
   {
 enunciado: "cortinas são os menores do mundo?!",
-  alternativas:{
+  alternativas:[
     "sim",
     "sim",
   ]
 }
     {
 enunciado: "Abel Ferreira é o melhor do mundo?!",
-  alternativas:{
+  alternativas:[
     "sim",
     "com certeza",
   ]
@@ -44,9 +44,21 @@ enunciado: "Abel Ferreira é o melhor do mundo?!",
 
     let atual=0;
       let perguntaAtual;
+
      funcion mostraPergunta(){
        perguntaAtual=perguntas[atual];
        caixaPerguntas.textosContent=perguntaAtual.enunciado;
+       mostraAlternativas();
      }
 
+function mostraAlternativas(){
+for(const alternativa of perguntaAtual.alternativas){
+const botaoAlternativa = document.createElement("button");
+botaoAlternativas.textContent= alternativa;
+caixaAlternativas.appendChild(botaoAlternativa);
+}
+}
     mostraPergunta();
+
+    
+
