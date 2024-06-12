@@ -8,11 +8,16 @@ const perguntas=[
 {
 enunciado: "Pergunta1",
   alternativas:[
-    "Alternativa1",
-    "Alternativa2",
-  ]
-}
-{
+    {
+texto: "Alternativa2",
+  afirmação: "afirmação",
+},
+    {
+texto: "não",
+afirmação: "afirmação",
+      {,
+   ]   
+texto: "não",
 enunciado: "quantas libertadores o palmeiras tem?",
   alternativas:[
     "3",
@@ -29,8 +34,14 @@ enunciado: "verde ou branco?",
   {
 enunciado: "cortinas são os menores do mundo?!",
   alternativas:[
+    {
+    texto: "sim",
+      afirmação: "afirmação",
+    },
+    {
     "sim",
-    "sim",
+      afirmação: "afirmação",
+    },
   ]
 }
     {
